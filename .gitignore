@@ -1,0 +1,15 @@
+__pycache__/
+*.pyc
+*.pyo
+*.zip
+
+# Data downloaded from OSF and pipeline outputs (keep only the folder structure)
+gt_files/**
+pred_files/**
+poly_files/**
+results/**
+!gt_files/**/
+!pred_files/**/
+!poly_files/**/
+!results/**/
+!**/.gitkeep
