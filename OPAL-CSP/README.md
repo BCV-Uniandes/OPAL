@@ -3,7 +3,7 @@
 **Official training and sampling code for OPAL-CSP, the crystal structure prediction model proposed in:**
 > *Quantitative Assessment of Crystal Structure Prediction*
 >
-> Sergio Rincón\*, Gabriel González\*, Nicolás Andrade, Rafael Velasquez, Sebastian Ojeda, Juanita Puentes, Nicolás Aparicio, Paula Cárdenas, Pablo Arbelaez
+> Sergio Rincón\*, Gabriel González\*, Nicolás Andrade, Rafael Velásquez, Sebastián Ojeda, Juanita Puentes, Nicolás Aparicio, Paula Cárdenas, Pablo Arbeláez
 >
 > Universidad de Los Andes, Colombia
 >
@@ -82,7 +82,7 @@ Each script trains for 1000 epochs, keeps the best checkpoint according to the v
 
 > **Hardware:** A CUDA-capable GPU with an NVIDIA driver compatible with CUDA 12.1 is required. All models train with a total batch size of 128 structures across GPUs: 4 GPUs × 32 for `mp_20` and `mpts_52`, and 2 GPUs × 64 for `perov_5` and `carbon_24`. If you use a different number of GPUs, adjust `BATCH` in the script so that `BATCH × NUM_GPUS = 128`.
 
-> **Runtime:** Training takes roughly 1 day for `perov_5`, 1–2 days for `carbon_24`, 2 days for `mp_20` and 5 days for `mpts_52`.
+> **Runtime:** Training takes about 15 hours for `perov_5` and 22 hours for `carbon_24` on 2 GPUs, and about 2 days for `mp_20` and 4 days for `mpts_52` on 4 GPUs.
 
 ---
 
@@ -253,7 +253,7 @@ If you use OPAL-CSP in your work, please cite:
 ```bibtex
 @inproceedings{opal2026,
   title     = {Quantitative Assessment of Crystal Structure Prediction},
-  author    = {Rinc{\'o}n, Sergio and Gonz{\'a}lez, Gabriel and Andrade, Nicol{\'a}s and Velasquez, Rafael and Ojeda, Sebastian and Puentes, Juanita and Aparicio, Nicol{\'a}s and C{\'a}rdenas, Paula and Arbelaez, Pablo},
+  author    = {Rinc{\'o}n, Sergio and Gonz{\'a}lez, Gabriel and Andrade, Nicol{\'a}s and Vel{\'a}squez, Rafael and Ojeda, Sebasti{\'a}n and Puentes, Juanita and Aparicio, Nicol{\'a}s and C{\'a}rdenas, Paula and Arbel{\'a}ez, Pablo},
   booktitle = {Advances in Neural Information Processing Systems},
   note      = {Track on Evaluations and Datasets},
   year      = {2026},

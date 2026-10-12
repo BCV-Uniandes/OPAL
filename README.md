@@ -3,7 +3,7 @@
 **Official reproduction code for:**
 > *Quantitative Assessment of Crystal Structure Prediction*
 >
-> Sergio Rincón\*, Gabriel González\*, Nicolás Andrade, Rafael Velasquez, Sebastian Ojeda, Juanita Puentes, Nicolás Aparicio, Paula Cárdenas, Pablo Arbelaez
+> Sergio Rincón\*, Gabriel González\*, Nicolás Andrade, Rafael Velásquez, Sebastián Ojeda, Juanita Puentes, Nicolás Aparicio, Paula Cárdenas, Pablo Arbeláez
 >
 > Universidad de Los Andes, Colombia
 >
@@ -338,7 +338,7 @@ If you use OPAL-Bench in your work, please cite:
 ```bibtex
 @inproceedings{opal2026,
   title     = {Quantitative Assessment of Crystal Structure Prediction},
-  author    = {Rinc{\'o}n, Sergio and Gonz{\'a}lez, Gabriel and Andrade, Nicol{\'a}s and Velasquez, Rafael and Ojeda, Sebastian and Puentes, Juanita and Aparicio, Nicol{\'a}s and C{\'a}rdenas, Paula and Arbelaez, Pablo},
+  author    = {Rinc{\'o}n, Sergio and Gonz{\'a}lez, Gabriel and Andrade, Nicol{\'a}s and Vel{\'a}squez, Rafael and Ojeda, Sebasti{\'a}n and Puentes, Juanita and Aparicio, Nicol{\'a}s and C{\'a}rdenas, Paula and Arbel{\'a}ez, Pablo},
   booktitle = {Advances in Neural Information Processing Systems},
   note      = {Track on Evaluations and Datasets},
   year      = {2026},
