@@ -3,6 +3,9 @@ from scipy.stats import wasserstein_distance
 
 
 def get_xrd(x):
+    # Ignore thermal displacement (U_iso) stored in the CIF
+    x.Atoms.uiso[:] = 0
+    x.generate_structure()
     scatter = x.Scatter
     scatter._scattering_min_twotheta = 5
     scatter._scattering_max_twotheta = 90

@@ -313,6 +313,9 @@ Bootstrap resampling with 10,000 iterations and seed 42. Outputs `results/main_r
 ### ➕ Adding a new method
 
 1. Place the predicted CIF files at `pred_files/{method_name}/Cifs/{dataset}/`
+
+   > **Note:** XRD distances are computed without thermal displacement. `metrics/xrd_dist.py` sets U_iso to 0 for every structure, so thermal parameters stored in your CIFs do not affect the metric.
+
 2. Run the alignment:
    ```bash
    python preprocess.py --pred_path pred_files --gt_path gt_files \
