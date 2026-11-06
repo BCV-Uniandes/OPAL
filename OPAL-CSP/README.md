@@ -56,7 +56,7 @@ The train/val/test splits of the four datasets are included in `data/{dataset}/{
 | --- | --- | --- | --- | --- |
 | `perov_5` | 18,928 | up to 5 | 60/20/20 | Perovskite materials |
 | `carbon_24` | 10,153 | 6 to 24 | 60/20/20 | Carbon-only structures, highly polymorphic |
-| `mp_20` | 45,231 | up to 20 | 60/20/20 | Inorganic crystals from the Materials Project |
+| `mp_20` | 45,229 | up to 20 | 60/20/20 | Inorganic crystals from the Materials Project |
 | `mpts_52` | 40,476 | up to 52 | 67.6/12.4/20 | Inorganic crystals from the Materials Project |
 
 On the first run of each dataset, the CSVs are converted to CIF files (`data/{dataset}/{split}/`) and preprocessed into cached tensors (`data/{dataset}/{split}.pt`). Later runs load the cache directly.
@@ -235,10 +235,10 @@ Median OPAL-Bench scores of OPAL-CSP across test compositions in the CSP track (
 
 | Dataset | Chamfer | Hausdorff | Sinkhorn | RMSE | ρ (g/cm³) | SOAP | XRD | FE (eV/at.) | Relaxed FE (eV/at.) |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| Perov-5 | 1.211 | 0.617 | 0.909 | 0.607 | 0.285 | 6.25 | 2.595 | 0.072 | 1.348 · 10⁻¹ |
-| Carbon-24\* | 1.561 | 1.281 | 12.563 | 0.889 | 0.001 | 5.67 | 2.304 | 0.002 | 5.700 · 10⁻⁵ |
-| MP-20 | 3.700 | 2.668 | 6.952 | 2.084 | 0.214 | 2.57 | 2.293 | 0.028 | 1.490 · 10⁻⁴ |
-| MPTS-52 | 4.325 | 3.698 | 20.908 | 2.642 | 0.183 | 3.47 | 2.523 | 0.113 | 7.748 · 10⁻² |
+| Perov-5 | 1.211 | 0.617 | 0.909 | 0.607 | 0.285 | 6.25 | 1.715 | 0.072 | 1.348 · 10⁻¹ |
+| Carbon-24\* | 1.561 | 1.281 | 12.563 | 0.889 | 0.001 | 5.67 | 1.644 | 0.002 | 5.700 · 10⁻⁵ |
+| MP-20 | 3.700 | 2.668 | 6.952 | 2.084 | 0.214 | 2.57 | 1.138 | 0.028 | 1.490 · 10⁻⁴ |
+| MPTS-52 | 4.325 | 3.698 | 20.908 | 2.642 | 0.183 | 3.47 | 1.338 | 0.113 | 7.748 · 10⁻² |
 
 \* Carbon-24 results may vary between runs due to the high uncertainty of this dataset: the high structural variance of carbon polymorphs produces wide 95% bootstrap confidence intervals on every metric (Appendix C.2 of the paper).
 
