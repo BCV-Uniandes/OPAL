@@ -251,12 +251,15 @@ Median OPAL-Bench scores of OPAL-CSP across test compositions in the CSP track (
 If you use OPAL-CSP in your work, please cite:
 
 ```bibtex
-@inproceedings{opal2026,
+@inproceedings{rincon2026opalbench,
   title     = {Quantitative Assessment of Crystal Structure Prediction},
-  author    = {Rinc{\'o}n, Sergio and Gonz{\'a}lez, Gabriel and Andrade, Nicol{\'a}s and Vel{\'a}squez, Rafael and Ojeda, Sebasti{\'a}n and Puentes, Juanita and Aparicio, Nicol{\'a}s and C{\'a}rdenas, Paula and Arbel{\'a}ez, Pablo},
-  booktitle = {Advances in Neural Information Processing Systems},
-  note      = {Track on Evaluations and Datasets},
+  author    = {Rinc{\'o}n, Sergio and Gonz{\'a}lez, Gabriel and Andrade, Nicol{\'a}s and
+               Vel{\'a}squez, Rafael and Ojeda, Sebasti{\'a}n and Puentes, Juanita and
+               Aparicio, Nicol{\'a}s and C{\'a}rdenas, Paula and Arbel{\'a}ez, Pablo},
+  booktitle = {Advances in Neural Information Processing Systems (NeurIPS), Evaluations and Datasets Track},
   year      = {2026},
+  eprint    = {2611.10380},
+  archivePrefix = {arXiv}
 }
 ```
 
