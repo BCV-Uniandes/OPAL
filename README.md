@@ -9,6 +9,8 @@
 >
 > \* Equal contribution
 
+[![arXiv](https://img.shields.io/badge/arXiv-2611.10380-b31b1b.svg)](https://arxiv.org/abs/2611.10380)
+[![Project Page](https://img.shields.io/badge/Project-Page-orange.svg)](https://bcv-uniandes.github.io/OPAL-WP/)
 [![Python 3.11](https://img.shields.io/badge/Python-3.11-blue.svg)](https://www.python.org/)
 [![CUDA 12.4](https://img.shields.io/badge/CUDA-12.4-green.svg)](https://developer.nvidia.com/cuda-toolkit)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
@@ -339,12 +341,15 @@ Bootstrap resampling with 10,000 iterations and seed 42. Outputs `results/main_r
 If you use OPAL-Bench in your work, please cite:
 
 ```bibtex
-@inproceedings{opal2026,
+@inproceedings{rincon2026opalbench,
   title     = {Quantitative Assessment of Crystal Structure Prediction},
-  author    = {Rinc{\'o}n, Sergio and Gonz{\'a}lez, Gabriel and Andrade, Nicol{\'a}s and Vel{\'a}squez, Rafael and Ojeda, Sebasti{\'a}n and Puentes, Juanita and Aparicio, Nicol{\'a}s and C{\'a}rdenas, Paula and Arbel{\'a}ez, Pablo},
-  booktitle = {Advances in Neural Information Processing Systems},
-  note      = {Track on Evaluations and Datasets},
+  author    = {Rinc{\'o}n, Sergio and Gonz{\'a}lez, Gabriel and Andrade, Nicol{\'a}s and
+               Vel{\'a}squez, Rafael and Ojeda, Sebasti{\'a}n and Puentes, Juanita and
+               Aparicio, Nicol{\'a}s and C{\'a}rdenas, Paula and Arbel{\'a}ez, Pablo},
+  booktitle = {Advances in Neural Information Processing Systems (NeurIPS), Evaluations and Datasets Track},
   year      = {2026},
+  eprint    = {2611.10380},
+  archivePrefix = {arXiv}
 }
 ```
 
